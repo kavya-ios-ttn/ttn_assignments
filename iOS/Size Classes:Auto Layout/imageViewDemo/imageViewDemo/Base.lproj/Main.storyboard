@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="imageViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paris" translatesAutoresizingMaskIntoConstraints="NO" id="dJU-OF-Rxw">
+                                <rect key="frame" x="50" y="129" width="314" height="157"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dJU-OF-Rxw" secondAttribute="height" multiplier="2:1" id="PUQ-7s-Gp3"/>
+                                    <constraint firstAttribute="height" constant="294" id="Run-aH-d2Y"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Run-aH-d2Y"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="Run-aH-d2Y"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paris2" translatesAutoresizingMaskIntoConstraints="NO" id="dfL-DT-BA0">
+                                <rect key="frame" x="116" y="536" width="182" height="181"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEt-K1-hfm">
+                                <rect key="frame" x="10" y="756" width="394" height="95"/>
+                                <string key="text">Paris, France's capital, is a major Europian destination. The Eiffel Tower was supposed to be a temporary installation, intended to stand for 20 years after being built for the 1889 World Fair. Paris was originally a Roman City called “Lutetia.”</string>
+                                <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dJU-OF-Rxw" secondAttribute="trailing" constant="50" id="39r-EV-eUd"/>
+                            <constraint firstItem="dJU-OF-Rxw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="3jj-VK-ldn"/>
+                            <constraint firstItem="dJU-OF-Rxw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="6pg-WN-GQv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dfL-DT-BA0" secondAttribute="trailing" constant="116" id="7aZ-8P-XKp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dJU-OF-Rxw" secondAttribute="trailing" constant="116" id="GiW-Zb-zsE"/>
+                            <constraint firstItem="AEt-K1-hfm" firstAttribute="top" secondItem="dfL-DT-BA0" secondAttribute="bottom" constant="39" id="KCM-R3-Rrj"/>
+                            <constraint firstItem="dJU-OF-Rxw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="NdM-xh-waS"/>
+                            <constraint firstItem="dJU-OF-Rxw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="85" id="Pun-7b-hJx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AEt-K1-hfm" secondAttribute="trailing" constant="10" id="UWK-t0-Dw6"/>
+                            <constraint firstItem="dfL-DT-BA0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="dqX-No-Ptt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dJU-OF-Rxw" secondAttribute="bottom" constant="37" id="hEH-Ml-49E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dJU-OF-Rxw" secondAttribute="bottom" constant="10" id="kzi-Pu-pMW"/>
+                            <constraint firstItem="dJU-OF-Rxw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="sAL-sd-RAh"/>
+                            <constraint firstItem="dfL-DT-BA0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="492" id="toA-xa-s5b"/>
+                            <constraint firstItem="AEt-K1-hfm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="wDi-au-s64"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="GiW-Zb-zsE"/>
+                                <exclude reference="hEH-Ml-49E"/>
+                                <exclude reference="kzi-Pu-pMW"/>
+                                <exclude reference="3jj-VK-ldn"/>
+                                <exclude reference="6pg-WN-GQv"/>
+                                <exclude reference="sAL-sd-RAh"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="39r-EV-eUd"/>
+                                <include reference="GiW-Zb-zsE"/>
+                                <exclude reference="hEH-Ml-49E"/>
+                                <exclude reference="kzi-Pu-pMW"/>
+                                <include reference="3jj-VK-ldn"/>
+                                <exclude reference="6pg-WN-GQv"/>
+                                <exclude reference="NdM-xh-waS"/>
+                                <exclude reference="Pun-7b-hJx"/>
+                                <include reference="sAL-sd-RAh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="circularImage" destination="dfL-DT-BA0" id="hgM-fV-9Tm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="517.39130434782612" y="141.96428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paris" width="640" height="426"/>
+        <image name="paris2" width="181" height="181"/>
+    </resources>
+</document>

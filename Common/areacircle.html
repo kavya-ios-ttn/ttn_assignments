@@ -1,0 +1,11 @@
+function circle(r)
+{
+    this.r = r;
+  
+    this.area = function () 
+    {
+        return Math.PI * this.r * this.r;
+    };
+}
+var c = new circle(3);
+console.log('Area =', c.area().toFixed(2));
