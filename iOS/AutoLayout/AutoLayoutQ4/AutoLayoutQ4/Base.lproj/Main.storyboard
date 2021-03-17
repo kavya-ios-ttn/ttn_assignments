@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutQ4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="erU-5j-4jA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1156"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GJZ-cU-m1X" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BONJOUR, PARIS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5I-wr-a8h">
+                                                <rect key="frame" x="20" y="10" width="374" height="150"/>
+                                                <color key="backgroundColor" red="0.98039215690000003" green="0.95294117649999999" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="N1S-7c-657"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paris" translatesAutoresizingMaskIntoConstraints="NO" id="9Mo-Bo-Mr7">
+                                                <rect key="frame" x="20" y="228" width="374" height="250"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="250" id="jea-Z5-bNW"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Hey, Kavya. How you doin'?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zVW-dH-Urf">
+                                                <rect key="frame" x="20" y="546" width="374" height="150"/>
+                                                <color key="backgroundColor" red="0.98039215690000003" green="0.95294117649999999" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="KDL-He-KA3"/>
+                                                </constraints>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRz-Lk-SRw">
+                                                <rect key="frame" x="20" y="764" width="374" height="52"/>
+                                                <color key="backgroundColor" red="0.41108219359999998" green="0.30856292959999998" blue="0.26096024569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="52" id="gKo-Q9-inI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Italic" family="Euphemia UCAS" pointSize="30"/>
+                                                <state key="normal" title="MAPS">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bft-FI-QbW">
+                                                <rect key="frame" x="20" y="884" width="374" height="52"/>
+                                                <color key="backgroundColor" red="0.41108219359999998" green="0.30856292959999998" blue="0.26096024569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="52" id="ACw-6j-pgo"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Italic" family="Euphemia UCAS" pointSize="30"/>
+                                                <state key="normal" title="HOTELS IN PARIS">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcm-9a-COZ">
+                                                <rect key="frame" x="20" y="1004" width="374" height="52"/>
+                                                <color key="backgroundColor" red="0.41108219359999998" green="0.30856292959999998" blue="0.26096024569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="52" id="ZAA-oy-m6w"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Italic" family="Euphemia UCAS" pointSize="30"/>
+                                                <state key="normal" title="BUS SERVICES">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.91409000880000002" green="0.60890735039999999" blue="0.63924955989999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="T5I-wr-a8h" firstAttribute="leading" secondItem="GJZ-cU-m1X" secondAttribute="leading" constant="20" id="0Cx-Qq-xn1"/>
+                                            <constraint firstAttribute="trailing" secondItem="Bft-FI-QbW" secondAttribute="trailing" constant="20" id="99V-wn-zvM"/>
+                                            <constraint firstAttribute="trailing" secondItem="zVW-dH-Urf" secondAttribute="trailing" constant="20" id="Akz-eR-gyq"/>
+                                            <constraint firstItem="Bft-FI-QbW" firstAttribute="top" secondItem="oRz-Lk-SRw" secondAttribute="bottom" constant="68" id="BFr-qV-wrO"/>
+                                            <constraint firstItem="Lcm-9a-COZ" firstAttribute="top" secondItem="Bft-FI-QbW" secondAttribute="bottom" constant="68" id="Ek3-oC-HKi"/>
+                                            <constraint firstItem="zVW-dH-Urf" firstAttribute="top" secondItem="9Mo-Bo-Mr7" secondAttribute="bottom" constant="68" id="IVM-LM-pDe"/>
+                                            <constraint firstItem="oRz-Lk-SRw" firstAttribute="top" secondItem="zVW-dH-Urf" secondAttribute="bottom" constant="68" id="MDF-Dy-Tpf"/>
+                                            <constraint firstItem="oRz-Lk-SRw" firstAttribute="leading" secondItem="GJZ-cU-m1X" secondAttribute="leading" constant="20" id="NHa-KF-g58"/>
+                                            <constraint firstAttribute="trailing" secondItem="oRz-Lk-SRw" secondAttribute="trailing" constant="20" id="Uk2-vq-oBR"/>
+                                            <constraint firstAttribute="trailing" secondItem="Lcm-9a-COZ" secondAttribute="trailing" constant="20" id="acL-ps-EC4"/>
+                                            <constraint firstItem="zVW-dH-Urf" firstAttribute="leading" secondItem="GJZ-cU-m1X" secondAttribute="leading" constant="20" id="avr-OU-mhL"/>
+                                            <constraint firstItem="T5I-wr-a8h" firstAttribute="top" secondItem="GJZ-cU-m1X" secondAttribute="top" constant="10" id="ccH-5R-Agr"/>
+                                            <constraint firstItem="9Mo-Bo-Mr7" firstAttribute="leading" secondItem="GJZ-cU-m1X" secondAttribute="leading" constant="20" id="efQ-mn-4f7"/>
+                                            <constraint firstAttribute="trailing" secondItem="9Mo-Bo-Mr7" secondAttribute="trailing" constant="20" id="h3x-MX-jAk"/>
+                                            <constraint firstAttribute="height" constant="1200" id="nVo-3C-R0w"/>
+                                            <constraint firstItem="Lcm-9a-COZ" firstAttribute="leading" secondItem="GJZ-cU-m1X" secondAttribute="leading" constant="20" id="r1N-Uk-Sp5"/>
+                                            <constraint firstItem="9Mo-Bo-Mr7" firstAttribute="top" secondItem="T5I-wr-a8h" secondAttribute="bottom" constant="68" id="skf-QP-TNO"/>
+                                            <constraint firstAttribute="trailing" secondItem="T5I-wr-a8h" secondAttribute="trailing" constant="20" id="vDP-4y-jVr"/>
+                                            <constraint firstItem="Bft-FI-QbW" firstAttribute="leading" secondItem="GJZ-cU-m1X" secondAttribute="leading" constant="20" id="wLm-3X-8wm"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="GJZ-cU-m1X" firstAttribute="leading" secondItem="erU-5j-4jA" secondAttribute="leading" id="FbW-Hq-UKS"/>
+                                    <constraint firstItem="GJZ-cU-m1X" firstAttribute="top" secondItem="erU-5j-4jA" secondAttribute="top" id="b62-Pa-ST1"/>
+                                    <constraint firstAttribute="bottom" secondItem="GJZ-cU-m1X" secondAttribute="bottom" id="jbk-Qh-zCc"/>
+                                    <constraint firstAttribute="trailing" secondItem="GJZ-cU-m1X" secondAttribute="trailing" id="nWo-Dd-3OV"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="erU-5j-4jA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4yT-hG-pph"/>
+                            <constraint firstAttribute="bottom" secondItem="erU-5j-4jA" secondAttribute="bottom" id="Bwe-7c-XB3"/>
+                            <constraint firstItem="erU-5j-4jA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ixd-Mc-hMw"/>
+                            <constraint firstItem="erU-5j-4jA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VVc-qT-8uA"/>
+                            <constraint firstItem="GJZ-cU-m1X" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Ws8-Ax-hud"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paris" width="640" height="426"/>
+    </resources>
+</document>
