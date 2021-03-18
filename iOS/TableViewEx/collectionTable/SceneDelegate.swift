@@ -2,9 +2,6 @@
 //  SceneDelegate.swift
 //  collectionTable
 //
-//  Created by harsh_TTN on 18/03/21.
-//  Copyright © 2021 harsh_TTN. All rights reserved.
-//
 
 import UIKit
 
