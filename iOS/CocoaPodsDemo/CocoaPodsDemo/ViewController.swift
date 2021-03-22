@@ -8,6 +8,8 @@
 
 import UIKit
 
+import SVProgressHUD
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
