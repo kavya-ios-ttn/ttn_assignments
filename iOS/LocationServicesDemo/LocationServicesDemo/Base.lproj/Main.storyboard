@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="SWJ-LM-GcU">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsTraffic="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SWJ-LM-GcU">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Mmj-Au-8Lq"/>
@@ -33,11 +33,28 @@
                     </view>
                     <connections>
                         <outlet property="mapView" destination="SWJ-LM-GcU" id="TiY-vk-pE4"/>
+                        <segue destination="2f8-32-zSN" kind="show" id="912-Ad-ZL6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="99"/>
+            <point key="canvasLocation" x="-138" y="45"/>
+        </scene>
+        <!--Second Screen View Controller-->
+        <scene sceneID="srb-e4-esi">
+            <objects>
+                <viewController storyboardIdentifier="SecondScreenViewController" id="2f8-32-zSN" customClass="SecondScreenViewController" customModule="LocationServicesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fdH-Ua-tLd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="EbM-nz-7Nf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sQJ-GL-zhy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eO6-eh-EWy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="561" y="45"/>
         </scene>
     </scenes>
 </document>

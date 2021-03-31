@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4530FA4D260F6E030015A94A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530FA4C260F6E030015A94A /* AppDelegate.swift */; };
-		4530FA4F260F6E030015A94A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530FA4E260F6E030015A94A /* SceneDelegate.swift */; };
-		4530FA51260F6E030015A94A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530FA50260F6E030015A94A /* ViewController.swift */; };
-		4530FA54260F6E030015A94A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4530FA52260F6E030015A94A /* Main.storyboard */; };
-		4530FA57260F6E030015A94A /* LocationServicesDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4530FA55260F6E030015A94A /* LocationServicesDemo.xcdatamodeld */; };
-		4530FA59260F6E050015A94A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4530FA58260F6E050015A94A /* Assets.xcassets */; };
-		4530FA5C260F6E050015A94A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4530FA5A260F6E050015A94A /* LaunchScreen.storyboard */; };
-		4530FABC2610F5A60015A94A /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530FABB2610F5A60015A94A /* SecondScreenViewController.swift */; };
+		4530FACA2610FD790015A94A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530FAC92610FD790015A94A /* AppDelegate.swift */; };
+		4530FACC2610FD790015A94A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530FACB2610FD790015A94A /* SceneDelegate.swift */; };
+		4530FACE2610FD790015A94A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530FACD2610FD790015A94A /* ViewController.swift */; };
+		4530FAD12610FD790015A94A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4530FACF2610FD790015A94A /* Main.storyboard */; };
+		4530FAD42610FD790015A94A /* LocationServicesQ2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4530FAD22610FD790015A94A /* LocationServicesQ2.xcdatamodeld */; };
+		4530FAD62610FD7A0015A94A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4530FAD52610FD7A0015A94A /* Assets.xcassets */; };
+		4530FAD92610FD7A0015A94A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4530FAD72610FD7A0015A94A /* LaunchScreen.storyboard */; };
+		4530FAE3261103A10015A94A /* CitiesLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530FAE2261103A10015A94A /* CitiesLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4530FA49260F6E030015A94A /* LocationServicesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationServicesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4530FA4C260F6E030015A94A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4530FA4E260F6E030015A94A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4530FA50260F6E030015A94A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4530FA53260F6E030015A94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4530FA56260F6E030015A94A /* LocationServicesDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocationServicesDemo.xcdatamodel; sourceTree = "<group>"; };
-		4530FA58260F6E050015A94A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4530FA5B260F6E050015A94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4530FA5D260F6E050015A94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4530FABB2610F5A60015A94A /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		4530FAC62610FD790015A94A /* LocationServicesQ2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationServicesQ2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4530FAC92610FD790015A94A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4530FACB2610FD790015A94A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4530FACD2610FD790015A94A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4530FAD02610FD790015A94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4530FAD32610FD790015A94A /* LocationServicesQ2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocationServicesQ2.xcdatamodel; sourceTree = "<group>"; };
+		4530FAD52610FD7A0015A94A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4530FAD82610FD7A0015A94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4530FADA2610FD7A0015A94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4530FAE2261103A10015A94A /* CitiesLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4530FA46260F6E030015A94A /* Frameworks */ = {
+		4530FAC32610FD790015A94A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +41,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4530FA40260F6E030015A94A = {
+		4530FABD2610FD790015A94A = {
 			isa = PBXGroup;
 			children = (
-				4530FA4B260F6E030015A94A /* LocationServicesDemo */,
-				4530FA4A260F6E030015A94A /* Products */,
+				4530FAC82610FD790015A94A /* LocationServicesQ2 */,
+				4530FAC72610FD790015A94A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4530FA4A260F6E030015A94A /* Products */ = {
+		4530FAC72610FD790015A94A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4530FA49260F6E030015A94A /* LocationServicesDemo.app */,
+				4530FAC62610FD790015A94A /* LocationServicesQ2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4530FA4B260F6E030015A94A /* LocationServicesDemo */ = {
+		4530FAC82610FD790015A94A /* LocationServicesQ2 */ = {
 			isa = PBXGroup;
 			children = (
-				4530FA4C260F6E030015A94A /* AppDelegate.swift */,
-				4530FA4E260F6E030015A94A /* SceneDelegate.swift */,
-				4530FA50260F6E030015A94A /* ViewController.swift */,
-				4530FA52260F6E030015A94A /* Main.storyboard */,
-				4530FA58260F6E050015A94A /* Assets.xcassets */,
-				4530FA5A260F6E050015A94A /* LaunchScreen.storyboard */,
-				4530FA5D260F6E050015A94A /* Info.plist */,
-				4530FA55260F6E030015A94A /* LocationServicesDemo.xcdatamodeld */,
-				4530FABB2610F5A60015A94A /* SecondScreenViewController.swift */,
+				4530FAC92610FD790015A94A /* AppDelegate.swift */,
+				4530FACB2610FD790015A94A /* SceneDelegate.swift */,
+				4530FACD2610FD790015A94A /* ViewController.swift */,
+				4530FAE2261103A10015A94A /* CitiesLocation.swift */,
+				4530FACF2610FD790015A94A /* Main.storyboard */,
+				4530FAD52610FD7A0015A94A /* Assets.xcassets */,
+				4530FAD72610FD7A0015A94A /* LaunchScreen.storyboard */,
+				4530FADA2610FD7A0015A94A /* Info.plist */,
+				4530FAD22610FD790015A94A /* LocationServicesQ2.xcdatamodeld */,
 			);
-			path = LocationServicesDemo;
+			path = LocationServicesQ2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4530FA48260F6E030015A94A /* LocationServicesDemo */ = {
+		4530FAC52610FD790015A94A /* LocationServicesQ2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4530FA60260F6E050015A94A /* Build configuration list for PBXNativeTarget "LocationServicesDemo" */;
+			buildConfigurationList = 4530FADD2610FD7A0015A94A /* Build configuration list for PBXNativeTarget "LocationServicesQ2" */;
 			buildPhases = (
-				4530FA45260F6E030015A94A /* Sources */,
-				4530FA46260F6E030015A94A /* Frameworks */,
-				4530FA47260F6E030015A94A /* Resources */,
+				4530FAC22610FD790015A94A /* Sources */,
+				4530FAC32610FD790015A94A /* Frameworks */,
+				4530FAC42610FD790015A94A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LocationServicesDemo;
-			productName = LocationServicesDemo;
-			productReference = 4530FA49260F6E030015A94A /* LocationServicesDemo.app */;
+			name = LocationServicesQ2;
+			productName = LocationServicesQ2;
+			productReference = 4530FAC62610FD790015A94A /* LocationServicesQ2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4530FA41260F6E030015A94A /* Project object */ = {
+		4530FABE2610FD790015A94A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = TTN;
 				TargetAttributes = {
-					4530FA48260F6E030015A94A = {
+					4530FAC52610FD790015A94A = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 4530FA44260F6E030015A94A /* Build configuration list for PBXProject "LocationServicesDemo" */;
+			buildConfigurationList = 4530FAC12610FD790015A94A /* Build configuration list for PBXProject "LocationServicesQ2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +116,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 4530FA40260F6E030015A94A;
-			productRefGroup = 4530FA4A260F6E030015A94A /* Products */;
+			mainGroup = 4530FABD2610FD790015A94A;
+			productRefGroup = 4530FAC72610FD790015A94A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4530FA48260F6E030015A94A /* LocationServicesDemo */,
+				4530FAC52610FD790015A94A /* LocationServicesQ2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4530FA47260F6E030015A94A /* Resources */ = {
+		4530FAC42610FD790015A94A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4530FA5C260F6E050015A94A /* LaunchScreen.storyboard in Resources */,
-				4530FA59260F6E050015A94A /* Assets.xcassets in Resources */,
-				4530FA54260F6E030015A94A /* Main.storyboard in Resources */,
+				4530FAD92610FD7A0015A94A /* LaunchScreen.storyboard in Resources */,
+				4530FAD62610FD7A0015A94A /* Assets.xcassets in Resources */,
+				4530FAD12610FD790015A94A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4530FA45260F6E030015A94A /* Sources */ = {
+		4530FAC22610FD790015A94A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4530FA51260F6E030015A94A /* ViewController.swift in Sources */,
-				4530FABC2610F5A60015A94A /* SecondScreenViewController.swift in Sources */,
-				4530FA57260F6E030015A94A /* LocationServicesDemo.xcdatamodeld in Sources */,
-				4530FA4D260F6E030015A94A /* AppDelegate.swift in Sources */,
-				4530FA4F260F6E030015A94A /* SceneDelegate.swift in Sources */,
+				4530FACE2610FD790015A94A /* ViewController.swift in Sources */,
+				4530FAE3261103A10015A94A /* CitiesLocation.swift in Sources */,
+				4530FACA2610FD790015A94A /* AppDelegate.swift in Sources */,
+				4530FACC2610FD790015A94A /* SceneDelegate.swift in Sources */,
+				4530FAD42610FD790015A94A /* LocationServicesQ2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4530FA52260F6E030015A94A /* Main.storyboard */ = {
+		4530FACF2610FD790015A94A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4530FA53260F6E030015A94A /* Base */,
+				4530FAD02610FD790015A94A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4530FA5A260F6E050015A94A /* LaunchScreen.storyboard */ = {
+		4530FAD72610FD7A0015A94A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4530FA5B260F6E050015A94A /* Base */,
+				4530FAD82610FD7A0015A94A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4530FA5E260F6E050015A94A /* Debug */ = {
+		4530FADB2610FD7A0015A94A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		4530FA5F260F6E050015A94A /* Release */ = {
+		4530FADC2610FD7A0015A94A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,34 +288,34 @@
 			};
 			name = Release;
 		};
-		4530FA61260F6E050015A94A /* Debug */ = {
+		4530FADE2610FD7A0015A94A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LocationServicesDemo/Info.plist;
+				INFOPLIST_FILE = LocationServicesQ2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kc.LocationServicesDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kc.LocationServicesQ2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4530FA62260F6E050015A94A /* Release */ = {
+		4530FADF2610FD7A0015A94A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LocationServicesDemo/Info.plist;
+				INFOPLIST_FILE = LocationServicesQ2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kc.LocationServicesDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kc.LocationServicesQ2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,20 +325,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4530FA44260F6E030015A94A /* Build configuration list for PBXProject "LocationServicesDemo" */ = {
+		4530FAC12610FD790015A94A /* Build configuration list for PBXProject "LocationServicesQ2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4530FA5E260F6E050015A94A /* Debug */,
-				4530FA5F260F6E050015A94A /* Release */,
+				4530FADB2610FD7A0015A94A /* Debug */,
+				4530FADC2610FD7A0015A94A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4530FA60260F6E050015A94A /* Build configuration list for PBXNativeTarget "LocationServicesDemo" */ = {
+		4530FADD2610FD7A0015A94A /* Build configuration list for PBXNativeTarget "LocationServicesQ2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4530FA61260F6E050015A94A /* Debug */,
-				4530FA62260F6E050015A94A /* Release */,
+				4530FADE2610FD7A0015A94A /* Debug */,
+				4530FADF2610FD7A0015A94A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -346,17 +346,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4530FA55260F6E030015A94A /* LocationServicesDemo.xcdatamodeld */ = {
+		4530FAD22610FD790015A94A /* LocationServicesQ2.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4530FA56260F6E030015A94A /* LocationServicesDemo.xcdatamodel */,
+				4530FAD32610FD790015A94A /* LocationServicesQ2.xcdatamodel */,
 			);
-			currentVersion = 4530FA56260F6E030015A94A /* LocationServicesDemo.xcdatamodel */;
-			path = LocationServicesDemo.xcdatamodeld;
+			currentVersion = 4530FAD32610FD790015A94A /* LocationServicesQ2.xcdatamodel */;
+			path = LocationServicesQ2.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 4530FA41260F6E030015A94A /* Project object */;
+	rootObject = 4530FABE2610FD790015A94A /* Project object */;
 }
