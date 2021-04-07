@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Localization
+
+  Created by TTN on 25/03/21.
+  Copyright © 2021 TTN. All rights reserved.
+*/
+
+"NameKey" = "Name";
+"StateKey" = "State";
+"CountryKey" = "Country";
+"DOBKey" = "Date of Birth";
+"LotteryWonKey" = "Lottery Won";
