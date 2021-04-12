@@ -7,7 +7,6 @@ target 'CocoaPodsDemo' do
 
   # Pods for CocoaPodsDemo
   pod 'SVProgressHUD'
-  pod 'AFNetworking', '~> 2.6'
-  pod 'Alamofire', '~> 5.2'
+  
 
 end
